@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-@media (min-width: 562px) {
+@media (min-width: 768px) {
     .image, .text {
         width: 50%;
     }

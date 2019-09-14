@@ -30,3 +30,17 @@ body {
     font-size: 1rem;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    .mail-cta, .mail-form {
+        display: flex;
+    }
+    .mail-form > input {
+        flex:1;
+        margin-bottom: 0px;
+    }
+    .mail-form > button {
+        width: auto;
+        margin-left: 10px;
+    }
+}

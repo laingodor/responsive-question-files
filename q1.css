@@ -31,4 +31,11 @@
     border-radius: 50%;
 }
 
+@media (min-width: 768px) {
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+}
 

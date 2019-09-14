@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box-one {
+  flex-wrap: wrap-reverse;
+}
+
+.image, text {
+    width: 100%;
+}
+
+@media (min-width: 562px) {
+    .image, .text {
+        width: 50%;
+    }
+}

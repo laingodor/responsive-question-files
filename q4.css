@@ -24,3 +24,11 @@
     margin: 0px;
 }
 
+@media (min-width: 768px) {
+    .feature-card {
+        flex: 1;
+        display: block;
+        text-align: center;
+    }
+}
+

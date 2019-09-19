@@ -39,8 +39,7 @@ body {
 
 @media (min-width: 768px) {
     .nav-links {
-        display: flex;
-        justify-content: flex-end;
+        display: block;
 
     }
     .menu-icon {

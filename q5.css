@@ -9,14 +9,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .box-one {
   flex-wrap: wrap-reverse;
 }
 
-.image, text {
+.image, .text {
     width: 100%;
+}
+
+h3 {
+    color: purple;
 }
 
 @media (min-width: 768px) {
